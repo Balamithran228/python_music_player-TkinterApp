@@ -5,6 +5,7 @@ import pygame
 import time
 from tkinter.filedialog import askopenfilename, askopenfilenames
 from mutagen.mp3 import MP3
+#author:- BalamithranS
 root = Tk()
 root.title("MUSIC PLAYER")
 pygame.mixer.init()
@@ -269,4 +270,5 @@ volume_slider.pack(pady=10)
 #slider_label.pack(pady=10)
 
 root.configure(bg="black")
+#author:- BalamithranS
 root.mainloop()
