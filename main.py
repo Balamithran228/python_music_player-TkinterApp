@@ -1,19 +1,4 @@
-'''from pytube import YouTube
-# https://www.youtube.com/watch?v=T8CWIlDq1E8
-link = input("enter youtube url link:")
-path = "E:/"
-yt = YouTube(str(link))
 
-
-# dn_video = yt.get(videos[-1].extension,videos[-1].resolution)
-
-
-print("wait downloading....")
-yt.streams.first().download(output_path=path, filename="bala_new")
-# downloading the video
-
-print("downloaded sucessfully")
-'''
 from tkinter import *
 import tkinter.ttk as ttk
 import pygame
